@@ -2,8 +2,6 @@ name: Data Generation Tool
 
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: "0 23 * * *" # Runs every day at 11:00 p.m.
 
 defaults:
   run:
